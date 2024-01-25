@@ -52,4 +52,3 @@ btn.addEventListener("click",async (evt) =>{
     let finalAmount = amtVal * rate;
     msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 });
-
